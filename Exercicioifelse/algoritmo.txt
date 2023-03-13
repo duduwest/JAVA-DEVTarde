@@ -24,5 +24,8 @@ Exercico4 - Algoritmo
 1. maças custam 0,30 centavos se compradas menos que 12 maças 
 2. macas custam 0,25 centavos se comprads 12 ou mais maças 
 3. ler o Numero de maças comprads 
-4. calcular valor da compra 
-5. escrver valor total para o cliente 
+4. calcular valor da compra  
+5. escrver valor total para o cliente  
+
+Exercicio5 - Algoritmo 
+1. 

@@ -6,7 +6,7 @@ public class App {
   public static void main(String[] args) 
   {
     Exercicio obj = new Exercicio(); 
-    obj.exercicio3(); 
+    obj.exercicio6(); 
 
   } 
 
