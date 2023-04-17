@@ -5,8 +5,8 @@ package IteracaoFor;
  */
 public class AppFor {
 public static void main(String[] args) {
-    ExemploFor obj = new ExemploFor(); 
-    obj.exemplo2();
+    ExercicioFor obj = new ExercicioFor(); 
+    obj.exercicio4eEe();
 }
     
 }

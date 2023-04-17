@@ -14,13 +14,23 @@ public class ExemploFor {
     }
 
     public void exemplo2() {
-        int vetor[] = new int[10];
+        int vetorA[] = new int[10];
 
         for (int i = 0; i < vetor.length; i++) // tamanho do vetor (((( length))))
         {
-            System.out.println("Digite o valor do vetor ["+i+"]:  ");
-            vetor[i] =  sc.nextInt(); 
+            System.out.println("Digite o valor do vetor [" + i + "]:  ");
+            vetor[i] = sc.nextInt();
         }
 
+    }
+
+    public void exemplo3() {
+
+        int vetorA[] = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+        for (int i = 9; i < 10; i--) {
+            System.out.println("classificando em ordem descrecentes temos ");
+
+        }
     }
 }
