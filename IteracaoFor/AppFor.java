@@ -6,7 +6,7 @@ package IteracaoFor;
 public class AppFor {
 public static void main(String[] args) {
     ExercicioFor obj = new ExercicioFor(); 
-    obj.exercicio4eEe();
+    obj.exercicio6();
 }
     
 }
