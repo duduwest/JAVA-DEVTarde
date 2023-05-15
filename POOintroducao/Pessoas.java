@@ -1,7 +1,12 @@
 package POOintroducao;
 
-public class Pessoas {
+public class Pessoas { 
+    //atributos
     protected String nome;  
+    protected String endereco; 
+
+
+    //metodos 
     public String getNome() {
         return nome;
     }
@@ -14,6 +19,6 @@ public class Pessoas {
     public void setEndereco(String endereco) {
         this.endereco = endereco;
     }
-    protected String endereco; 
+  
 
-}
+} 
