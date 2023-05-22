@@ -86,8 +86,8 @@ public class Formativa {
     public void Exercicio3() {
         int tVetor = rd.nextInt(901) + 100; // t vetor = tamanho do vetor 
         int[] vetor = new int[tVetor];
-        int qtdParPosicaoImpar = 0;
-        int qtdImparPosicaoPar = 0;
+        int quantidadeParPosicaoImpar = 0;
+        int quantidadeImparPosicaoPar = 0;
 
         System.out.println("Tamanho do vetor: " + tVetor);
 
@@ -115,17 +115,17 @@ public class Formativa {
         }
         for (int i = 1; i < vetor.length; i += 2) {
             if (vetor[i] % 2 == 0) {
-                qtdParPosicaoImpar++;
+                quantidadeParPosicaoImpar++;
             }
         }
 
         for (int i = 0; i < vetor.length; i += 2) {
             if (vetor[i] % 2 != 0) {
-                qtdImparPosicaoPar++;
+                quantidadeImparPosicaoPar++;
             }
         }
         System.out.println();
-        System.out.println("Quantidade de números pares nas posições ímpares: " + qtdParPosicaoImpar);
-        System.out.println("Quantidade de números ímpares nas posições pares: " + qtdImparPosicaoPar);
+        System.out.println("Quantidade de números pares nas posições ímpares: " + quantidadeParPosicaoImpar);
+        System.out.println("Quantidade de números ímpares nas posições pares: " + quantidadeImparPosicaoPar);
     }
 }
