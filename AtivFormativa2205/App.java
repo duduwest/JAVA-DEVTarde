@@ -8,7 +8,7 @@ package AtivFormativa2205;
 public class App {
 public static void main(String[] args) { 
     Formativa obj = new Formativa(); 
-    obj.Exercicio2();
+    obj.Exercicio3();
    
     
 } } 

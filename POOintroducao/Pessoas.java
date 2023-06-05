@@ -1,9 +1,10 @@
 package POOintroducao;
 
-public class Pessoas { 
+public abstract class Pessoas { 
     //atributos
     protected String nome;  
-    protected String endereco; 
+    protected String endereco;  
+    String rg; 
 
 
     //metodos 

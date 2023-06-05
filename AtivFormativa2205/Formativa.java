@@ -94,7 +94,7 @@ public class Formativa {
         System.out.println("Vetor gerado:");
 
         for (int i = 0; i < vetor.length; i++) {
-            vetor[i] = rd.nextInt(100) + 1;
+            vetor[i] = rd.nextInt(900) + 100;
             System.out.print(vetor[i] + " ");
         }
         System.out.println();
@@ -124,7 +124,7 @@ public class Formativa {
                 quantidadeImparPosicaoPar++;
             }
         }
-        System.out.println();
+        System.out.println( );
         System.out.println("Quantidade de números pares nas posições ímpares: " + quantidadeParPosicaoImpar);
         System.out.println("Quantidade de números ímpares nas posições pares: " + quantidadeImparPosicaoPar);
     }
