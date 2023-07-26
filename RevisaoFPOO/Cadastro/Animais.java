@@ -6,15 +6,18 @@ public abstract class Animais {
     double peso;
     String proprietario; 
     String genero; 
-    String especie;
+    String especie;  
+    int idAnimal; 
+
 
     //contrutores cheio 
-    public Animais(String porte, double peso, String proprietario, String genero, String especie) {
+    public Animais(String porte, double peso, String proprietario, String genero, String especie ,int idAnimal) {
         this.porte = porte;
         this.peso = peso;
         this.proprietario = proprietario;
         this.genero = genero;
-        this.especie = especie;
+        this.especie = especie; 
+        this.idAnimal = idAnimal;
     }    
 
     //construtor vazio 
@@ -25,6 +28,7 @@ public abstract class Animais {
 
     //métodos 
     //gets and sets 
+    
     
     public String getPorte() {
         return porte;
@@ -64,7 +68,16 @@ public abstract class Animais {
     public void setEspecie(String especie) {
         this.especie = especie;
     }
+
+    public int getIdAnimal() {
+        return idAnimal;
+    }
+
+    public void setIdAnimal(int idAnimal) {
+        this.idAnimal = idAnimal;
+    }
      
+    
 
     
 
