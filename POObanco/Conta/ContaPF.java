@@ -6,7 +6,8 @@ package POObanco.Conta;
 public class ContaPF extends Conta { 
 // atributos 
 String nCPF;  
-//Métodos 
+//Métodos  
+
 // construtor 
 
 public ContaPF(String nome, double saldo, int numeroConta, String nCPF) {
