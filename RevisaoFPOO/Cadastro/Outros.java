@@ -12,6 +12,8 @@ public class Outros extends Animais {
     public Outros (String racaOutros) {
         this.racaOutros = racaOutros;
     }
+    // salva logo 
+    
 
     
 
