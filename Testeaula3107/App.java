@@ -106,6 +106,12 @@ public class App {
             } else if (acao == 4) {  
              //agendamento 
             //verificar se ja existe o cadastro 
+                if (nIdAnimalBuscado == cachorro[i].getIdAnimal()) {
+                    animalAtual = i;
+                if (nIdAnimalBuscado == cachorro[i].getIdAnimal()) {
+                    animalAtual = i;
+                    JOptionPane.showMessageDialog(
+                    JOptionPane.showMessageDialog(
         String
             }
            
