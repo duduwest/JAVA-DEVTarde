@@ -64,14 +64,15 @@ public class App {
                 JOptionPane.showMessageDialog(null, "Informaçoes do cliente: "
                         + "\n Nome do cliente: " + contasPJ[contPJ].getNome()
                         + "\n Numero da conta: " + contasPJ[contPJ].getNumeroConta()
-                        + "\n Saldo da conta: " + contasPJ[contPJ].getSaldo()); 
-                          contPJ++;
+                        + "\n Saldo da conta: " + contasPJ[contPJ].getSaldo());
+                contPJ++;
 
             }
 
             // ******CONSULTAR CONTAS******
 
-            // acessar conta - percorrer o vetor criado eprocurar um valor ou nº da conta ou
+            // acessar conta - percorrer o vetor criado e procurar um valor ou nº da conta
+            // ou
             // nome
 
             if (acao1 == 3) {
@@ -136,7 +137,7 @@ public class App {
                     }
 
                 }
-            } else if (acao1 == 4) { 
+            } else if (acao1 == 4) {
 
                 int nContaBuscada = Integer.parseInt(JOptionPane.showInputDialog("Digite o nº da Conta"));
 
