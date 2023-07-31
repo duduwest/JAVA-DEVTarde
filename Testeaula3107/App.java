@@ -2,6 +2,7 @@ package Testeaula3107;
 
 import javax.swing.JOptionPane;
 
+import RevisaoFPOO.Agenda.Agendamento;
 import RevisaoFPOO.Cadastro.Animais;
 import RevisaoFPOO.Cadastro.Cachorro;
 import RevisaoFPOO.Cadastro.Gato;
@@ -15,7 +16,8 @@ public class App {
 
         Cachorro[] cachorro = new Cachorro[5];
         Gato gato[] = new Gato[5];
-        Outros outros[] = new Outros[5];
+        Outros outros[] = new Outros[5]; 
+        Agendamento agendamento [] = new Agendamento[100]; // vetor dos agendamentos 
         boolean veterinarioAberta = true;
         int contcachorro = 0;
         int contgato = 0;
@@ -101,7 +103,12 @@ public class App {
                     JOptionPane.showMessageDialog(null, "Cadastro Encontrada");
 
                 }
+            } else if (acao == 4) {  
+             //agendamento 
+            //verificar se ja existe o cadastro 
+        String
             }
+           
         }
     }
 }  
