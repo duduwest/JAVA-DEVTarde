@@ -20,6 +20,7 @@ public class App {
         Agendamento agendamento [] = new Agendamento[100]; // vetor dos agendamentos 
         boolean veterinarioAberta = true;
         int contcachorro = 0;
+        
         int contgato = 0;
         int contoutros = 0;
         int animalAtual = 0;
@@ -106,12 +107,6 @@ public class App {
             } else if (acao == 4) {  
              //agendamento 
             //verificar se ja existe o cadastro 
-                if (nIdAnimalBuscado == cachorro[i].getIdAnimal()) {
-                    animalAtual = i;
-                if (nIdAnimalBuscado == cachorro[i].getIdAnimal()) {
-                    animalAtual = i;
-                    JOptionPane.showMessageDialog(
-                    JOptionPane.showMessageDialog(
         String
             }
            
