@@ -15,6 +15,9 @@ public class ExemploThrow {
                 dataDeNascimento = dataDeNascimento.replace("/", "");
                 if (senha.length() < 8) {
                     throw new Exception("Senha < 8 Caracteres");
+                } 
+                if (senha.length() == ) {
+                    
                 }
                 if (senha.equals(login)) {
                     throw new Exception("Senha = Login");
