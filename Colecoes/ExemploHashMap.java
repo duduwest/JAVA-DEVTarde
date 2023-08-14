@@ -6,7 +6,7 @@ public class ExemploHashMap {
     HashMap<String, String> capitalEstado = new HashMap<>();
     HashMap<String, Integer> NomeIdade = new HashMap<>();
 
-    public void teste() {
+    public void testeh() {
         capitalEstado.put("SP", "São Paulo");
         capitalEstado.put("MG", "Minas Gerais");
         capitalEstado.put("RJ", "Rio de Janeiro");
