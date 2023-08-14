@@ -12,8 +12,19 @@ public class ExemploArrayList {
         // e necessito que lee copie o vetor 1 para o vetor 2
         for (int i = 0; i < v1.length; i++) {
             v2[i] = v1[i];
-        }
+        } 
+        //adicionei o valor do add a ultima posição do vetor 2 
+        v2[v2.length-1] = add;
+//copiar o v2 para o v1 
+//antes redefinir o tamanho do v1 
+int v1[] = new int[cont+1]; 
+for (int i = 0; i < v2.length; i++) {
+    v1[i]=v2[i];
+}
+cont ++;
+    } 
 
+    public void imprimir () { 
+        
     }
-
 }
