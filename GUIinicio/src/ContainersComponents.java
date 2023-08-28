@@ -31,7 +31,9 @@ public class ContainersComponents extends JFrame {
         //adiconar ação ao botão 
         botao1.addActionListener(e -> {  
             cont ++;
-            texto1.setText("Nº de cliques é "+cont);
+            texto1.setText("Nº de cliques é "+cont); 
+            add(botao1);
+
         } );
         this.setVisible(true); // Transforma a janela em Visivel
     }
